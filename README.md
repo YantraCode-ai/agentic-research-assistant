@@ -10,7 +10,7 @@
 [![OpenRouter](https://img.shields.io/badge/LLM-OpenRouter-8A2BE2)](https://openrouter.ai/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-<img src="assets/research_agent.gif" alt="Agentic Research Assistant banner" width="850"/>
+<img src="assets/research_agent.gif" alt="Agentic Research Assistant banner" width="800"/>
 
 </div>
 
@@ -29,7 +29,7 @@ The repository ships **two parallel implementations** of the same agent so you c
 | **Manual tool-calling loop** | Raw OpenAI-compatible SDK loop with custom step/budget tracking | `legacy/agent.py` + `legacy/app.py` |
 | **Graph-based agent** | [LangGraph](https://www.langchain.com/langgraph) `StateGraph` with a `ToolNode` | `agent_graph.py` + `app_graph.py` |
 
-> Built as part of a walkthrough video by **YantraCode** — [watch it here](#)
+> Built as part of a walkthrough video by **YantraCode** — [watch it here](https://youtu.be/OUTeXMBnSl0)
 
 ---
 
@@ -112,8 +112,8 @@ The repository ships **two parallel implementations** of the same agent so you c
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-org>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/YantraCode-ai/agentic-research-assistant.git
+cd agentic-research-assistant
 
 # Create and activate a virtual environment
 python -m venv venv
@@ -189,11 +189,11 @@ Contributions are welcome! Please open an issue to discuss significant changes b
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for details.
+Distributed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
 <div align="center">
-Built and maintained by <a href="https://github.com/<your-org>">@your-org</a>
+Built and maintained by <a href="https://github.com/yantracode-ai">YantraCode</a>
 Authored By: Akshat Gupta
 </div>
